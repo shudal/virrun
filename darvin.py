@@ -14,10 +14,6 @@ conf.read(config_path)
 #mishu = input("想跑大概多少米?输入整数:")
 mishu = conf.get('param','mishu')  #总路程
 mishu = int(mishu)
-	
-minut = conf.get('param','minute')
-minut = int(minut)
-miao  = minut * 60
 
 speed = conf.get('param','speed')  #米每秒
 speed = int(speed)
@@ -326,8 +322,7 @@ if handle!=0:
 	print("	横向点数为"+str(hhs))
 	print("	纵向点数为"+str(sss))
 	
-	print("	总路程:"+str(mishu)+"米")
-	print("	总时间:"+str(minut)+"分钟")
+	print("	总路程:"+str(mishu)+"米") 
 	print("	速度  :"+str(speed)+"米/秒")
 	times = 3
 	lucheng = 0

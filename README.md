@@ -26,6 +26,8 @@
   默认路径的起点如图
   ![](https://perci-1253331419.cos.ap-chengdu.myqcloud.com/apps/lepao/ori.png)
 
+请勿关闭这个[位置设置]窗口
+
 - 打开[步道乐跑]等软件，登录上后，点击[进入乐跑]->点击[进入乐跑]->点击[开始跑步]
 
 - 运行darvin.exe
